@@ -1,0 +1,91 @@
+.editProfile {
+  padding-bottom: 3rem;
+}
+.editProfile button {
+  display: block;
+  border: none;
+  outline: none;
+  background: #3232ff;
+  color: white;
+  padding: 0.3rem;
+  font-size: 1rem;
+  margin: auto;
+  margin-top: auto;
+  cursor: pointer;
+  margin-top: 2rem;
+  width: 10%;
+}
+.editProfile h1 {
+  text-align: center;
+}
+
+.editProfile .imgWrapper {
+  width: 40%;
+  height: 40%;
+  margin: auto;
+  text-align: center;
+}
+.editProfile .imgWrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 10%;
+  object-fit: contain;
+}
+
+.editProfile p {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  line-height: 2rem;
+  align-items: center;
+}
+
+.editProfile p label {
+  width: 30%;
+}
+.editProfile p input,
+.editProfile p textarea {
+  width: 70%;
+  border: 1px solid #dddddd;
+  background: #fff;
+  padding: 5px;
+}
+
+@media (max-width: 850px) {
+  .editProfile button {
+    width: 15%;
+  }
+}
+
+@media (max-width: 600px) {
+  .editProfile button {
+    width: 20%;
+  }
+  .editProfile p {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .editProfile p label {
+    width: 100%;
+  }
+  .editProfile p input,
+  .editProfile p textarea {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .editProfile button {
+    width: 30%;
+  }
+
+  /*   
+  .editProfile p input,
+  .editProfile p textarea {
+    width: 100%;
+  } */
+}

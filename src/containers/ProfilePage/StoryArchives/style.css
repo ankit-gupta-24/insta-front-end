@@ -1,0 +1,10 @@
+.storyArchives{
+    padding-bottom: 3rem;
+}
+.storyContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}

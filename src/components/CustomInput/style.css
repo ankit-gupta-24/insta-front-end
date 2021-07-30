@@ -1,0 +1,26 @@
+.customInput {
+  width: 100%;
+  position: relative;
+}
+.customInput label {
+  position: absolute;
+  font-size: 12px;
+  top: 9px;
+  left: 15px;
+  transition: margin-top 0.3s ease-in-out;
+  z-index: 0;
+}
+.customInput input {
+  display: block;
+  padding: 5px;
+  font-size: 14px;
+  width: 90%;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+.moveLabelUp,
+.customInput:hover > label,
+.customInput:focus > label {
+  margin-top: -24px;
+  transition: margin-top 0.3s ease-in-out;
+}

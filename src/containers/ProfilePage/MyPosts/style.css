@@ -1,0 +1,10 @@
+.myPosts{
+    padding-bottom: 3rem;
+}
+.postContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}

@@ -1,0 +1,57 @@
+.createStory {
+  padding-bottom: 3rem;
+}
+.createStory .createStoryForm {
+  width: 70%;
+  margin: auto;
+}
+.createStory .createStoryForm textarea,
+.createStory .createStoryForm input {
+  display: block;
+  width: 70%;
+  margin: auto;
+  margin-top: 1.2rem;
+  padding: 5px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  background: #fff;
+}
+
+.createStory .createStoryForm button {
+  display: block;
+  border: none;
+  outline: none;
+  background: #3232ff;
+  color: white;
+  padding: 0.3rem;
+  font-size: 1rem;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 2rem;
+  width: 10%;
+}
+
+@media (max-width: 850px) {
+  .createStory .createStoryForm button {
+    width: 15%;
+  }
+}
+
+@media (max-width: 600px) {
+  .createStory .createStoryForm button {
+    width: 20%;
+  }
+  .createStory .createStoryForm textarea,
+  .createStory .createStoryForm input {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .createStory .createStoryForm button {
+    width: 30%;
+  }
+  .createStory .createStoryForm textarea,
+  .createStory .createStoryForm input {
+    width: 100%;
+  }
+}

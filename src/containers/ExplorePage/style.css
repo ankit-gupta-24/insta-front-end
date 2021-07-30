@@ -1,0 +1,8 @@
+.explorePage{
+    width: 80%;
+    margin:auto;
+    /* background: rgba(245,245,245,1); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

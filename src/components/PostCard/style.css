@@ -1,0 +1,116 @@
+.postCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid rgba(230, 230, 230, 1);
+  margin-top: 20px;
+}
+.postCard .postHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(240, 240, 240, 1);
+}
+.postCard .postHeader a{
+  color: #000;
+}
+.postCard .postHeader  div:first-child {
+  display: flex;
+  flex-direction: row;
+}
+.postCard .postHeader .imgWrapper {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.postCard .postHeader .imgWrapper img {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+}
+.postCard .postHeader .postUser {
+  display: flex;
+  align-items: center;
+}
+.postCard .postHeader .postMenu {
+  padding: 10px;
+  cursor: pointer;
+  color: #5851db;
+  font-size: 0.8rem;
+}
+
+.postCard .postBody {
+  padding: 10px;
+  text-align: center;
+}
+
+.postCard .postBody img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.postCard .postBody div {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  padding: 10px;
+  color: white;
+}
+
+.postCard .postBody div h2 {
+  text-align: center;
+}
+
+.postCard .postBody div h4 {
+  text-align: justify;
+}
+
+.postCard .postFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.postCard .postFooter .postFooterBtnWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.postCard .postFooter .postFooterBtnWrapper svg {
+  font-size: 1.5rem;
+  color: black;
+  padding: .2rem;
+  cursor: pointer;
+}
+
+.postCard .postFooter .postTagline p {
+  margin: 0;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.postCard .postFooter .postCommentSection {
+  padding: 10px;
+}
+
+.postCard .postFooter .postCommentSection .allComments p {
+  margin: 5px;
+  font-size: 0.8rem;
+}
+.postCard .postFooter .postCommentSection .commentForm {
+  display: flex;
+  padding-top: 10px;
+}
+.postCard .postFooter .postCommentSection .commentForm input {
+  margin: 0;
+}

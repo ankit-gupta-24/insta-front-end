@@ -1,0 +1,57 @@
+.createPost {
+  padding-bottom: 3rem;
+}
+.createPost .createPostForm {
+  width: 70%;
+  margin: auto;
+}
+.createPost .createPostForm textarea,
+.createPost .createPostForm input {
+  display: block;
+  width: 70%;
+  margin: auto;
+  margin-top: 1.2rem;
+  padding: 5px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  background: #fff;
+}
+
+.createPost .createPostForm button {
+  display: block;
+  border: none;
+  outline: none;
+  background: #3232ff;
+  color: white;
+  padding: 0.3rem;
+  font-size: 1rem;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 2rem;
+  width: 10%;
+}
+
+@media (max-width: 850px) {
+  .createPost .createPostForm button {
+    width: 15%;
+  }
+}
+
+@media (max-width: 600px) {
+  .createPost .createPostForm button {
+    width: 20%;
+  }
+  .createPost .createPostForm textarea,
+  .createPost .createPostForm input {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .createPost .createPostForm button {
+    width: 30%;
+  }
+  .createPost .createPostForm textarea,
+  .createPost .createPostForm input {
+    width: 100%;
+  }
+}

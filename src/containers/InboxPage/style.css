@@ -1,0 +1,158 @@
+.inboxPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(245, 245, 245, 1);
+  width: 100%;
+  height: calc(100vh - 6rem);
+  position: absolute;
+}
+
+.inboxPage .content {
+  width: 65%;
+  /* width: 97%; */
+  height: 70vh;
+  margin: auto;
+  background: #fff;
+  border: 1px solid #bbb;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.inboxPage .content .userListArea {
+  width: 33%;
+  height: 100%;
+  border-right: 1px solid #bbb;
+}
+
+.inboxPage .content .userListArea .listContent {
+  scrollbar-width: none;
+  overflow-y: scroll;
+  height: 60vh;
+}
+
+.inboxPage .content .userListArea .listContent::-webkit-scrollbar {
+  display: none;
+}
+.inboxPage .content .userListArea .userListHeader {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  border-bottom: 1px solid #bbb;
+  font-size: 1.2rem;
+}
+
+.inboxPage .content .userListArea .userListItem {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+.inboxPage .content .userListArea .userListItem .imgWrapper {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inboxPage .content .userListArea .userListItem .imgWrapper img {
+  max-width: 3rem;
+  max-height: 3rem;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.inboxPage .content .defaultPageForMessage {
+  width: 67%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inboxPage .content .messageArea {
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+}
+.inboxPage .content .messageArea .messageAreaHeader {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-bottom: 1px solid #bbb;
+}
+.inboxPage .content .messageArea .messageAreaHeader .imgWrapper {
+  width: 1.45rem;
+  height: 1.45rem;
+  margin-right: 1.45rem;
+}
+
+.inboxPage .content .messageArea .messageAreaHeader .imgWrapper img {
+  max-width: 1.45rem;
+  max-height: 1.45rem;
+  border-radius: 50%;
+}
+
+.inboxPage .content .messageArea .messageInput {
+  width: 80%;
+  box-shadow: 0 2px 10px #ddd;
+  margin: 0.5rem auto;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inboxPage .content .messageArea .messageInput input {
+  width: 80%;
+  border: none;
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+.inboxPage .content .messageArea .allMessages {
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.inboxPage .content .messageArea .allMessages ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.inboxPage .content .messageArea .allMessages ul li {
+  list-style: none;
+  margin: 0.3rem;
+  display: flex;
+  width: 100%;
+}
+
+.inboxPage .content .messageArea .allMessages ul li span {
+  margin: 0;
+  padding: 0.5rem;
+  text-align: right;
+  display: inline-block;
+  border-radius: 0.5rem;
+}
+.inboxPage .content .messageArea .allMessages ul li .sendMsg {
+  background: royalblue;
+  color: white;
+  margin-left: auto;
+}
+.inboxPage .content .messageArea .allMessages ul li .receivedMsg {
+  background: #dedede;
+}
+
+
+@media (max-width:1000px){
+  .inboxPage .content{
+    width: 85%;
+  }
+}
+
+@media (max-width:800px){
+  .inboxPage .content{
+    width: 97%;
+  }
+}

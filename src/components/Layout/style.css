@@ -1,0 +1,10 @@
+.whiteSpace{
+    width:100%;
+    height:3.8rem;
+}
+
+@media (max-width:370px){
+    .whiteSpace{
+        height: 3rem;
+    }
+}

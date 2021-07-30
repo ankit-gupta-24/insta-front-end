@@ -1,0 +1,32 @@
+.viewProfile {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.viewProfile .imgWrapper {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  text-align: center;
+}
+.viewProfile .imgWrapper img {
+  max-width: 60%;
+  max-height: 60%;
+  object-fit: contain;
+}
+
+.viewProfile .profileDetail {
+  text-align: center;
+}
+
+.viewProfile .profileDetail div p span {
+  margin: 10px;
+}
+
+.viewProfile .profileDetail .nickname {
+  text-transform: uppercase;
+  font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    margin:auto;
+    background-color: rgba(250,250,250,1);
+    position:fixed;
+    left:0;
+    bottom:0;
+    border-top: 1px solid #ddd;
+}
+
+.footer div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+.footer div p{
+    text-align: center;
+    margin: 0;
+}
+
+.footer,
+.footer a{
+    color: rgba(150,150,150,1);
+    font-size: .8rem;
+}
+
+@media (max-width:400px){
+    .footer{
+        display: none;
+    }
+}
