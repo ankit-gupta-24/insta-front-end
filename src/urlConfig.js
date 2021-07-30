@@ -1,7 +1,7 @@
-export const apiBaseUrl = "http://localhost:3030/api";
+export const apiBaseUrl = "http://insta-back-end-ankit.herokuapp.com/api";
 
 export const generatPublicURL = (filename) => {
-  return `http://localhost:3030/public/${filename}`;
+  return `http://insta-back-end-ankit.herokuapp.com/public/${filename}`;
 };
 
 export const getURLParams = (url) => {
